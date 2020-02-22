@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.index {
+    background: url("../assets/index-background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3vh 3vw 3vh 3vw;
+}
+
+.index h1 {
+    color: white;
+    font-family: Open Sans;
+    font-size: 7vh;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.index p {
+    color: white;
+    font-family: Open Sans;
+    margin-bottom: 1vh;
+    font-size: 3vh;
+}
+
+.index-title {
+    margin: auto;
+    width: 60vw;
+}
+
+.index-scroll {
+    padding-bottom: 4vh;
+}
+
+.description {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description-header {
+    padding: 5vh 5vw 0 5vw;
+    color: #1890ff;
+    font-family: Open Sans;
+    font-weight: bolder;
+    margin: 0;
+    text-align: center;
+}
+.avatar {
+    height: 53vh;
+    padding: 5vh 0 5vh 0;
+}
+
+.desc {
+    height: 40vh;
+    background-color: #1890ff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-text {
+    width: 70vw;
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+    padding: 1vh 1vw 1vh 1vw;
+}

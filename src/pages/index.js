@@ -4,7 +4,7 @@ import { Icon } from "antd"
 import Navigation from "../components/navigation"
 
 import "../styles/index.css"
-import avatar from "../assets/avatar-blue.jpg"
+import avatar from "../assets/avatar.jpg"
 
 require("smooth-scroll")('a[href*="#"]')
 var ReactFitText = require('react-fittext');
@@ -31,12 +31,12 @@ export default () => (
             </div>
         </div>
         <div className="description">
-            <ReactFitText compressor={5} minFontSize="15">
+            <ReactFitText compressor={3} minFontSize="15">
                 <p id="description-header">I am a Computer Science student, enthusiastic and eager to learn new technologies.</p>
             </ReactFitText>
             <img className="avatar" src={ avatar } alt="Avatar" />
             <div className="desc">
-                <ReactFitText compressor={5} minFontSize="10">
+                <ReactFitText compressor={6} minFontSize="10">
                     <div className="desc-text">
                         I started my Computer Science journey in 2014, when I enrolled in School of Electrical and Computer Engineering Velenje. 
                         I am currently studying Computer and Information science in Faculty of Computer and Information Science Ljubljana. 

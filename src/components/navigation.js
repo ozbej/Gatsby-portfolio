@@ -3,8 +3,8 @@ import { Menu } from 'antd';
 import { Link } from "gatsby"
 import 'antd/dist/antd.css';
 
-export default() => (
-    <Menu mode="horizontal" theme="dark" style={style} selectedKeys={["home"]} >
+export default(props) => (
+    <Menu mode="horizontal" theme="dark" style={style} selectedKeys={[]}>
         <Menu.Item key="home">
             <Link to="/">Home</Link>
         </Menu.Item>

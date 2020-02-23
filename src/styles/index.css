@@ -2,6 +2,16 @@ body {
     margin: 0;
 }
 
+.down-desc {
+    color: white;
+    font-size: 3vh;
+    transition: all .2s ease-in-out;
+}
+
+.down-desc:hover {
+    transform: scale(1.5);
+}
+
 .index {
     background: url("../assets/index-background.jpeg") no-repeat center center fixed;
     background-size: cover;
@@ -70,7 +80,9 @@ body {
     font-family: Open Sans;
     color: #505050;
     background-color: white;
-    border: 2px solid #505050;
+    -webkit-box-shadow: 2px -1px 16px -3px rgba(74,74,74,0.73);
+    -moz-box-shadow: 2px -1px 16px -3px rgba(74,74,74,0.73);
+    box-shadow: 2px -1px 16px -3px rgba(74,74,74,0.73);
     border-radius: 25px;
     text-align: center;
     padding: 2vh 2vw 2vh 2vw;

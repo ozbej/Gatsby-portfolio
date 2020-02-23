@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Icon } from "antd"
+import { Icon, BackTop } from "antd"
 import Navigation from "../components/navigation"
 
 import "../styles/index.css"
@@ -9,14 +9,15 @@ import avatar from "../assets/avatar.jpg"
 require("smooth-scroll")('a[href*="#"]')
 var ReactFitText = require('react-fittext');
 
-export default () => (
+export default (props) => (
     <div>
+        <BackTop />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
         <div className="index">
             <Navigation />
             <div className="index-title">
                 <ReactFitText compressor={2} minFontSize="15">
-                    <h1>Hi, I'm Ožbej. I design and build<br />websites and mobile apps.</h1>
+                    <h1>Hi, I'm Ožbej. I design and build<br />websites &amp; mobile apps.</h1>
                 </ReactFitText>
             </div>
             <div className="index-scroll">
@@ -24,8 +25,8 @@ export default () => (
                     <p>Get to know me</p>
                 </ReactFitText>
                 <div>
-                    <Link to="/#description-header" style={{ color: "white", fontSize: "3vh" }} >
-                        <Icon type="down" />
+                    <Link to="/#description-header" >
+                        <Icon type="down" className="down-desc" />
                     </Link>
                 </div>
             </div>
@@ -41,7 +42,8 @@ export default () => (
                         I started my Computer Science journey in 2014, when I enrolled in School of Electrical and Computer Engineering Velenje. 
                         I am currently studying Computer and Information science in Faculty of Computer and Information Science Ljubljana. 
                         In my free time I like to learn new relevant technologies, frameworks and programming languages. 
-                        I am always ready to learn, confident, curious and working on improving my programming skills. 
+                        I am always ready to learn, confident, curious and working on improving my programming skills.
+                        Find out more <Link to="/about">about me</Link>.
                     </div>
                 </ReactFitText>
             </div>

@@ -14,7 +14,7 @@ export default (props) => (
         <BackTop />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
         <div className="index">
-            <Navigation />
+            <Navigation/>
             <div className="index-title">
                 <ReactFitText compressor={2} minFontSize="15">
                     <h1>Hi, I'm Ožbej. I design and build<br />websites &amp; mobile apps.</h1>

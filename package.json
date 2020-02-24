@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "antd": "^3.26.11",
+    "emailjs-com": "^2.4.1",
     "gatsby": "^2.19.7",
     "gatsby-plugin-less": "^3.0.19",
     "less": "^3.11.1",

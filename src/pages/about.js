@@ -69,7 +69,7 @@ export default (props) => (
             </div>
             <div className="project-box">
                 <div className="project">
-                    <p>Technology: JavaScript- Angular</p>
+                    <p>Technology: Angular</p>
                     <p>My previous portfolio page which sums up my CV in a form of a website.</p>
                     <Button type="primary" shape="round" size="large" href="https://portfolio-angular-ozbej.herokuapp.com/" className="link-button">
                         Visit website<Icon type="right" />

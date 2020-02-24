@@ -5,5 +5,6 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-less`]
+  plugins: [`gatsby-plugin-less`],
+  pathPrefix: "/portfolio"
 }

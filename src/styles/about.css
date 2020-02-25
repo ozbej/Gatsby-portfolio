@@ -66,9 +66,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    .technical-skills {
+        width: 90vw;
+    }
     .skill {
         font-family: Open Sans;
-        width: 20vw;
+        width: 30vw;
         height: inherit;
         padding-top: 2vh;
     }
@@ -86,8 +89,7 @@
 
     .skill p {
         color: black;
-        font-size: 2.2vw;
-        margin: 0;
+        font-size: 2.4vw;
     }
 
     .about p {

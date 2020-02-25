@@ -2,12 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import { Icon, BackTop } from "antd"
 import Navigation from "../components/navigation"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import "../styles/index.css"
 import avatar from "../assets/avatar.jpg"
 
-require("smooth-scroll")('a[href*="#"]')
-var ReactFitText = require('react-fittext');
+try {
+    var ReactFitText = require('react-fittext');
+}
+catch (e) {
+    console.log(e)
+}
 
 export default (props) => (
     <div>
@@ -25,9 +30,9 @@ export default (props) => (
                     <p>Get to know me</p>
                 </ReactFitText>
                 <div>
-                    <Link to="/#description-header" >
+                    <AnchorLink href="#description-header" >
                         <Icon type="down" className="down-desc" />
-                    </Link>
+                    </AnchorLink>
                 </div>
             </div>
         </div>

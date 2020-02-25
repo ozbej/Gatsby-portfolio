@@ -2,11 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import { Icon, Button, BackTop } from "antd"
 import Navigation from "../components/navigation"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import "../styles/about.css"
-
-require("smooth-scroll")('a[href*="#"]')
-var ReactFitText = require('react-fittext');
 
 export default (props) => (
     <div>
@@ -57,9 +55,9 @@ export default (props) => (
             </div>
             <div class="scroll-projects">
                 <h1>Learn about my projects</h1>
-                <Link to="/about/#projects-header" >
+                <AnchorLink href="#projects-header" >
                     <Icon type="down" className="down-projects" />
-                </Link>
+                </AnchorLink>
             </div>
         </div>
         <div className="projects">

@@ -1,12 +1,8 @@
 import React from "react"
 import { BackTop, Button, Icon } from "antd"
-import { Link } from "gatsby"
 import Navigation from "../components/navigation"
 
 import "../styles/contact.css"
-
-require("smooth-scroll")('a[href*="#"]')
-var ReactFitText = require('react-fittext');
 
 export default (props) => (
     <div>

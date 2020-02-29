@@ -95,6 +95,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .index {
+        background: url("../assets/index-background.jpeg") no-repeat center;
+        background-size: cover;
+    }
+
     .index-title h1 {
         font-size: 5vw;
     }

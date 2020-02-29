@@ -75,7 +75,7 @@ export default (props) => (
                 </div>
                 <div className="project">
                     <p>Technology: Ruby on Rails</p>
-                    <p>A simble real estate website with authentication, authorization and comment system.</p>
+                    <p>A simple real estate website with authentication, authorization and comment system.</p>
                     <Button type="primary" shape="round" size="large" href="https://nepremicnine-app.herokuapp.com/" className="link-button">
                         Visit website<Icon type="right" />
                     </Button>

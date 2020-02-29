@@ -88,6 +88,10 @@ body {
     border-radius: 25px;
     text-align: center;
     padding: 2vh 2vw 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -99,8 +103,12 @@ body {
         font-size: 4vw;
     }
 
+    .description-header-div {
+        height: 20vh;
+    }
+
     #description-header {
-        font-size: 4vw;
+        font-size: 2vh;
     }
 
     .avatar {

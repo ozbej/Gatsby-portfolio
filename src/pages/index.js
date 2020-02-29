@@ -26,15 +26,19 @@ export default (props) => (
             </div>
         </div>
         <div className="description">
-            <p id="description-header">I am a Computer Science student, enthusiastic and eager to learn new technologies.</p>
+            <div className="description-header-div">
+                <p id="description-header">I am a Computer Science student, enthusiastic and eager to learn new technologies.</p>
+            </div>
             <img className="avatar" src={ avatar } alt="Avatar" />
             <div className="desc">
                 <div className="desc-text">
-                    I started my Computer Science journey in 2014, when I enrolled in School of Electrical and Computer Engineering Velenje. 
-                    I am currently studying Computer and Information science in Faculty of Computer and Information Science Ljubljana. 
-                    In my free time I like to learn new relevant technologies, frameworks and programming languages. 
-                    I am always ready to learn, confident, curious and working on improving my programming skills.
-                    Find out more <Link to="/about">about me</Link>.
+                    <div>
+                        I started my Computer Science journey in 2014, when I enrolled in School of Electrical and Computer Engineering Velenje. 
+                        I am currently studying Computer and Information science in Faculty of Computer and Information Science Ljubljana. 
+                        In my free time I like to learn new relevant technologies, frameworks and programming languages. 
+                        I am always ready to learn, confident, curious and working on improving my programming skills.
+                        Find out more <Link to="/about">about me</Link>.
+                    </div>
                 </div>
             </div>
         </div>
